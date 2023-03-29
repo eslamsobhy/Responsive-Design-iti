@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95vw;
+  height: 95vh;
+  border: 2px solid black;
+}
+
+.item {
+  border: 2px solid orange;
+  width: 100px;
+  height: 50px;
+}
