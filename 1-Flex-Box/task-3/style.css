@@ -1,0 +1,35 @@
+.layout-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 3px;
+}
+
+.sidenav,
+.sidebar {
+  background-color: rgb(201, 130, 0);
+  flex-grow: 1;
+}
+
+.sidenav,
+.sidebar,
+main {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: greenyellow;
+  flex-grow: 2;
+}
+
+header,
+footer {
+  background-color: rgb(32, 129, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+}
