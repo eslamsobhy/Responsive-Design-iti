@@ -1,0 +1,27 @@
+@media (max-width: 500.9999px) {
+  header,
+  aside,
+  main,
+  article,
+  footer {
+    background-color: palevioletred;
+  }
+
+  body {
+    background-color: black;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+  header,
+  aside,
+  main,
+  article,
+  footer {
+    background-color: aqua;
+  }
+
+  body {
+    background-color: black;
+  }
+}
