@@ -1,0 +1,43 @@
+body {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  transform: rotate3d(1, 1, 1, -50deg);
+}
+
+header,
+aside,
+main,
+article,
+footer {
+  background-color: black;
+  color: aqua;
+  margin: 2px;
+}
+
+aside {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+header {
+  grid-column: span 2;
+  /* grid-row: span 1; */
+}
+
+article {
+  grid-row: span 2;
+}
+
+footer {
+  grid-column: span 2;
+}
