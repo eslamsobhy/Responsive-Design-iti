@@ -4,6 +4,30 @@
     grid-template-areas:
       "header header header header" "nav nav nav nav" "main main main main" "bar bar bar bar"
       "footer footer footer footer";
-    grid-template-rows: 70px 350px 350px 350px 70px;
+    /* grid-template-rows: 70px 150px 150px 150px 70px; */
   }
+
+  /* header,
+  .sidebar,
+  .sidenav,
+  main,
+  footer {
+    grid-column: 1/5;
+  }
+
+  .sidenav {
+    grid-row: 2/3;
+  }
+
+  main {
+    grid-row: 3/4;
+  }
+
+  .sidebar {
+    grid-row: 4/5;
+  }
+
+  footer {
+    grid-row: 5/6;
+  } */
 }
