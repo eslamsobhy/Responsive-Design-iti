@@ -3,20 +3,20 @@
   height: 200px;
 }
 
-@media (max-width: 575.9999px) {
+/* @media (max-width: 575.9999px) {
   .img-container .img:not(:first-child) {
     width: 30%;
   }
-}
+} */
 
 @media (max-width: 767.9999px) {
-  .first-img {
+  /* .first-img {
     width: 100% !important;
-  }
+  } */
 
-  .img-container .img:not(:first-child) {
+  /* .img-container .img:not(:first-child) {
     width: 20%;
-  }
+  } */
 
   p {
     text-align: center;
