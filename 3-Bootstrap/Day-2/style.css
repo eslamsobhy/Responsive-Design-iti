@@ -1,11 +1,21 @@
 .img {
-  width: 169px;
+  width: 150px;
   height: 200px;
+}
+
+@media (max-width: 575.9999px) {
+  .img-container .img:not(:first-child) {
+    width: 30%;
+  }
 }
 
 @media (max-width: 767.9999px) {
   .first-img {
     width: 100% !important;
+  }
+
+  .img-container .img:not(:first-child) {
+    width: 20%;
   }
 
   p {
