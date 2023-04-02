@@ -1,0 +1,14 @@
+.img {
+  width: 169px;
+  height: 200px;
+}
+
+@media (max-width: 767.9999px) {
+  .first-img {
+    width: 100% !important;
+  }
+
+  p {
+    text-align: center;
+  }
+}
