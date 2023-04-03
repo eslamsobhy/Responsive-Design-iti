@@ -46,3 +46,26 @@ p {
 .footer {
   height: 60px !important;
 }
+
+.bookmark {
+  content: "";
+  width: 70px;
+  position: absolute;
+  height: 80px;
+  background: #212529;
+  top: -45px;
+  left: 13.2%;
+  z-index: -2;
+}
+
+.bookmark::before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 70px;
+  border-radius: 50%;
+  background: #fff3cd;
+  top: 80%;
+  left: -15%;
+  z-index: -1;
+}
