@@ -26,3 +26,19 @@
 p {
   color: #727272;
 }
+
+.separator {
+  height: 100px;
+}
+
+.separator::before {
+  content: "";
+  border: 15px solid rgba(108, 117, 125, 1);
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  position: absolute;
+  left: 50%;
+  bottom: -17px;
+  transform: translate(-50%, -50%);
+}
