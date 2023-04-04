@@ -1,3 +1,80 @@
+.main-title {
+  color: rgb(41, 41, 41);
+}
+.main-subtitle {
+  color: rgb(49, 49, 255);
+}
+.main-btn {
+  color: rgb(41, 41, 41);
+}
+.main-btn:hover {
+  color: rgb(49, 49, 255);
+}
 
+.font-0px {
+  font-size: 0px;
+}
+
+.font-2px {
+  font-size: 2px;
+}
+
+.font-4px {
+  font-size: 4px;
+}
+
+.font-6px {
+  font-size: 6px;
+}
+
+.font-8px {
+  font-size: 8px;
+}
+
+.font-10px {
+  font-size: 10px;
+}
+
+.font-12px {
+  font-size: 12px;
+}
+
+.font-14px {
+  font-size: 14px;
+}
+
+.font-16px {
+  font-size: 16px;
+}
+
+.font-18px {
+  font-size: 18px;
+}
+
+.font-20px {
+  font-size: 20px;
+}
+
+@media all and (min-width: 0px) {
+  .finish-btn {
+    width: 100%;
+  }
+}
+@media all and (min-width: 576px) {
+  .finish-btn {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+@media screen and (min-width: 768px) {
+  .finish-btn {
+    width: auto;
+    position: static;
+    left: auto;
+    transform: none;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
