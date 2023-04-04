@@ -1,0 +1,27 @@
+// Bootstrap works on minimum width, when specifying the breakpoint
+
+@mixin bootstrapCols($numofcols: 12, $screenname: "", $breakpoint: 0px) {
+  @if ($screenname == "") {
+    @media all and (min-width: $breakpoint) {
+      @for $i from 1 through $numofcols {
+        .col-#{$i} {
+          width: ($i/ $numofcols) * 100%;
+        }
+      }
+    }
+  } @else {
+    @media all and (min-width: $breakpoint) {
+      @for $i from 1 through $numofcols {
+        .col-#{$screenname}-#{$i} {
+          width: ($i/12) * 100%;
+        }
+      }
+    }
+  }
+}
+
+@include bootstrapCols();
+@include bootstrapCols(12, "sm", 567px);
+@include bootstrapCols(12, "md", 720px);
+@include bootstrapCols(12, "lg", 920px);
+@include bootstrapCols(12, "xl", 1200px);
