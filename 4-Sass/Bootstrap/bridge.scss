@@ -1,0 +1,33 @@
+@import "../../3-Bootstrap/Day-1/node_modules/bootstrap/scss/bootstrap.scss";
+
+@each $key, $val in $colors {
+  .btn-#{$key} {
+    background-color: $val !important;
+  }
+}
+
+@each $key, $val in $purples {
+  .btn-#{$key} {
+    background-color: $val !important;
+  }
+}
+
+// change margins variable using spacer variable
+@mixin margins($orientation: "") {
+  @if ($orientation == "") {
+    @each $key, $val in $spacers {
+      .m-#{$key} {
+        margin: $val * 2 !important;
+      }
+    }
+  } @else if($orientation == "s") {
+    @each $key, $val in $spacers {
+      .ms-#{$key} {
+        margin-left: $val * 2 !important;
+      }
+    }
+  }
+}
+
+@include margins();
+@include margins("s");
